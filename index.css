@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.main-logo{
+    height: 100px;
+}
+
+.userlogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+span{
+    display: block;
+}
+
+p{
+    padding-left: 10px ;
+}
+.top-section{
+    display: flex;
+}
+
+.post-img{
+    width: 100%;
+}
+.btn-section{
+    padding: 10px 5px;
+}
+
+.btn-section img{
+    height: 50px;
+    width: 50px;
+    padding-right:15px ;
+}
+.post{
+    border-top: 1px solid gray;
+    padding-bottom: 10px;
+    padding: 20px;
+    
+}
+
+#post-avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
